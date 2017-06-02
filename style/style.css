@@ -1,0 +1,76 @@
+.branding {
+  font-size: 17px;
+}
+
+#acme-logo {
+  font-weight: bold;
+}
+
+.showcase {
+  background:url('../img/showcase.jpg') no-repeat fixed;
+  height: 600px;
+  background-position: center;
+  padding: 220px 100px;
+  color: #fff;
+}
+
+.showcase h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.showcase hr {
+  width: 350px;
+  margin: auto;
+  border-width: 3px;
+  border-color: #f44336;
+}
+
+.showcase p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.section .fa {
+  font-size: 50px;
+}
+
+.section img {
+  width: 100%;
+}
+
+#about img {
+  box-shadow: 8px 5px 5px grey;
+}
+
+@media only screen and (max-width:600px) {
+  body {
+    margin-top: 110px;
+  }
+
+  .showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  body {
+    margin-top: 110px;
+  }
+
+  .showcase {
+    height: 550px;
+    padding: 60px 0;
+  }
+}
